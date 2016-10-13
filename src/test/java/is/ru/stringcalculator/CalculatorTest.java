@@ -11,8 +11,8 @@ public class CalculatorTest {
 	}
 
 	@Test
-	public void testEmptyString() {
-		assertEquals(0, Calculator.add(""));
+	public void testTwoStrings() {
+		assertEquals(1, Calculator.add("1"));
 	}
 
 }
